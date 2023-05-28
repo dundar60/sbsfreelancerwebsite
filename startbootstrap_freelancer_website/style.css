@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+
+    font-size: 10px;
+
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+
+    font-family: Montserrat;
+    background-color: #2C3E50;
+    color: #fff;
+    height: 10.5rem;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+
+
+
+
+}
+
+
+
+#homepage .homepage-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.8rem;
+    float: left;
+    margin-left: 11rem;
+    margin-top: 3.4rem;
+
+
+
+}
+
+#menu {
+    
+    margin-top: 4.3rem;
+    padding-right: 15rem;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 100rem;
+    
+
+}
+
+#menu .menu-items {
+    display: inline-block;
+    margin-left: 3.3rem;
+    
+    
+    
+    
+    
+
+}
+
+.menu-items .menu-links {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    transition: color 0.5s;
+    
+    
+    
+
+}
+
+.menu-links:hover {
+    color: #1ABC9C;
+
+}
+
+header {
+    position: relative;
+    background-color: #1ABC9C;
+    height: 70rem;
+    color: #fff;
+    font-family: Montserrat;
+    text-align: center;
+    padding-top: 6rem;
+
+}
+
+#avatar .avatar-photo {
+    width: 25rem;
+    margin-top: 9.5rem;
+
+}
+
+#header-h1 h1 {
+    margin-top: 3rem;
+    font-size: 6rem;
+
+}
+
+#starline .line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 2rem;
+    max-width: 30rem;
+    background-color: #fff;
+    margin-left: 61.5rem;
+    margin-top: 3rem;
+
+}
+
+#starline .star {
+    position: absolute;
+    background-color: #1ABC9C;
+    margin-left: 73rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-top: 0;
+}
+
+#header-h2 h2 {
+    position: relative;
+    margin-top: 8rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 2.2rem;
+    font-weight: lighter;
+
+}
+
+section {
+    position: relative;
+    background-color: #fff;
+    height: 85rem;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#starline2 .line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 2rem;
+    max-width: 30rem;
+    background-color: #2C3E50;
+    margin-left: 61.5rem;
+    margin-top: 3rem;
+
+}
+
+#starline2 .star {
+    position: absolute;
+    background-color: #fff;
+    margin-left: 73rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-top: 0;
+    color: #2C3E50;
+}
+
+#portfolio h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+    color: #2C3E50;
+}
+
+#portfolio-items {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 10rem;
+
+
+
+}
+
+.portfolio-links {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+#portfolio-img {
+   /* margin: 1rem 1rem;*/
+   margin: 0pxx;
+    max-width: 40rem;
+    border-radius: 1rem;
+}
+.portfolio-links > a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.portfolio-links > a:hover{
+    background-color: rgba(26, 188, 156, 0.9);
+}
+
+
+.about {
+    font-size: 2.5rem;
+    height: 50rem;
+    background-color: #1ABC9C;
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+
+
+
+
+}
+@media (max-width:540px)
+{
+    #portfolio-img{
+        aspect-ratio: 400/288;
+        width: clamp(300px,90vw,400px);
+        height: auto;
+    }
+}
+
+.about h1 {
+    padding-top: 6rem;
+}
+
+#about-h2 .about-h2-item {
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 8rem;
+    max-width: 28%;
+    text-align: left;
+    margin-left: 1.8rem;
+    text-decoration: none;
+    display: inline-flex;
+    letter-spacing: 0.5px;
+    line-height: 2.5rem;
+    font-family: Lato;
+    font-weight: 400;
+    opacity: 0.95;
+}
+
+.btn {
+    margin-top: 5rem;
+
+}
+
+.btn #btn-download {
+    background-color: #1ABC9C;
+    color: #fff;
+    font-family: sans-serif;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    transition: 0.5s;
+
+}
+
+#btn-download i {
+    margin-right: 10px;
+}
+
+#btn-download:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.contact {
+    height: 80rem;
+    background-color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    color: #2C3E50;
+    padding-top: 8rem;
+}
+
+#form {
+    padding-top: 10rem;
+
+}
+
+#form input {
+    display: block;
+    margin-left: 43rem;
+    width: 70rem;
+    height: 3rem;
+    margin-bottom: 5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    font-size: 2.5rem;
+    padding: 1rem;
+
+
+}
+
+#form textarea {
+    display: block;
+    margin-left: 43rem;
+    width: 70rem;
+    height: 10rem;
+    margin-bottom: 5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    font-size: 2.5rem;
+    padding: 1rem;
+    resize: vertical;
+    font-family: Lato;
+}
+
+#form a {
+    background-color: #1ABC9C;
+    font-family: Lato;
+    color: #fff;
+    padding: 2rem 3rem;
+    float: left;
+    margin-left: 43rem;
+    border-radius: 5px;
+
+}
+
+footer {
+    font-family: Montserrat;
+
+}
+
+.end1 {
+    height: 27rem;
+    background-color: #2C3E50;
+    color: #fff;
+    font-family: Montserrat;
+
+}
+
+.end1 li {
+    display: inline-block;
+    margin-left: 15rem;
+    margin-top: 8rem;
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 4rem;
+}
+
+.end1 h2 {
+    position: relative;
+    display: inline-block;
+    margin-top: 3rem;
+    text-align: center;
+    width: 20rem;
+    font-family: Lato;
+
+}
+
+.end2 {
+    height: 8rem;
+    background-color: #1A252F;
+    text-align: center;
+    color: #fff;
+    font-family: Lato;
+    padding-top: 3rem;
+    font-size: 0.92rem;
+}
+
+.end1 a {
+    position: relative;
+    font-size: 2rem;
+    color: #fff;
+
+    margin-right: 0.8rem;
+    margin-left: 1rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 1.5rem 1.5rem;
+
+
+
+
+}
+
+#h2-end {
+    width: 37rem;
+}
+#h2-end a{
+    padding: 0;
+    border-style: none ;
+    font-size: 1.9rem;
+    font-family: Lato;
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+#gecis{
+    transition: 0.5s;
+}
